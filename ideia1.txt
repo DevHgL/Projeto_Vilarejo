@@ -1,0 +1,55 @@
+Jornada do Hóspede 360° com IA
+Este projeto ataca diretamente os problemas de Personalização, NPS e RevPAR, e ainda cria um forte elo para fidelização, que é o resultado final de um bom NPS.
+
+A Solução em Detalhes (dividida nas suas 3 fases):
+
+Fase 1: Pré-Hospedagem (O Planejador Antecipado)
+Como Funciona: Dias após a confirmação da reserva, o assistente virtual entra em contato via WhatsApp ou e-mail. Usando IA Generativa, ele cria uma mensagem única para aquele hóspede.
+
+Programação: "Olá, [Nome do Hóspede]! Vimos que você ficará conosco de [data] a [data]. Preparamos um resumo da nossa programação para esses dias para você já entrar no clima..."
+
+Dicas Práticas: "Para essa época do ano em nossa região, recomendamos trazer roupas leves para o dia e um agasalho para a noite. Não se esqueça do protetor solar! Teremos nosso luau na sexta-feira, uma ótima oportunidade para usar uma roupa mais descontraída."
+
+Rotas Inteligentes: "Para facilitar sua chegada, aqui estão as melhores rotas partindo dos principais pontos: [Link do Google Maps para rota de carro], [Horários e ponto de parada do ônibus X], [Contato da nossa van parceira com desconto]."
+
+Valor Agregado:
+
+Reduz a ansiedade pré-viagem do hóspede.
+
+Demonstra cuidado e "atendimento acolhedor"  antes mesmo do check-in.
+
+Gerencia as expectativas e já começa a construir uma experiência positiva.
+
+Fase 2: Durante a Hospedagem (O Concierge Pessoal)
+Como Funciona: Ao fazer o check-in, o hóspede é lembrado que pode usar aquele mesmo contato de WhatsApp para tudo. Aqui, o assistente "se aprofunda".
+
+Proatividade: "Bom dia! O sol está lindo hoje, perfeito para aproveitar a piscina. Nossa aula de hidroginástica começa às 11h. Deseja participar?"
+
+Facilitador: "Gostaria de reservar uma mesa para o jantar no nosso restaurante temático hoje à noite?" ou "Posso agendar uma massagem para você no nosso spa às 16h?".
+
+Helpdesk Imediato: Responde dúvidas instantaneamente, como "Qual a senha do Wi-Fi?" ou "Até que horas o bar da piscina fica aberto?".
+
+Valor Agregado:
+
+Aumenta o consumo de serviços extras, impactando diretamente o RevPAR.
+
+Melhora drasticamente o NPS ao oferecer um serviço ultra-conveniente e personalizado.
+
+Libera a equipe da recepção de perguntas repetitivas, permitindo que foquem em interações de maior valor.
+
+Fase 3: Pós-Hospedagem (O Elo de Fidelidade)
+Como Funciona: Uma semana após o check-out, o assistente envia uma última mensagem, demonstrando que o hotel "entendeu" o perfil do hóspede.
+
+Recomendação Personalizada: A IA analisa o que o hóspede consumiu ou participou. "Olá, [Nome do Hóspede]! Esperamos que tenha tido uma ótima viagem de volta. Vimos que você aproveitou bastante nossa programação de música ao vivo. Por isso, achamos que você vai adorar o nosso Festival de Jazz, que acontece todo mês de novembro. Seria ótimo recebê-lo novamente!"
+
+Valor Agregado:
+
+Cria um sentimento de reconhecimento único no cliente.
+É uma estratégia de marketing de fidelização extremamente eficaz e de baixo custo.
+Incentiva a reserva direta, que é mais lucrativa para o hotel.
+
+Como essa ideia é fácil de implementar (MVP):
+
+Você pode propor começar apenas com a Fase 1 (Pré-Hospedagem). Ela pode ser feita com uma automação simples (Make/Zapier) que é ativada por uma nova reserva, envia os dados para a IA criar o texto e dispara a mensagem. Isso já entrega um valor enorme e prova o conceito do projeto sem a necessidade de integrações complexas com os sistemas do hotel. As fases 2 e 3 seriam a evolução natural após o sucesso do MVP.
+
+Esta é uma ideia fantástica porque é uma história completa com começo, meio e fim. Ela é criativa, altamente tangível e tem um roteiro claro de evolução. É uma proposta vencedora para o seu case.
