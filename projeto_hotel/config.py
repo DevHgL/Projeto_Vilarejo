@@ -1,14 +1,20 @@
 
-# Chave da API da OpenRouter
-OPENROUTER_API_KEY = "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"
-# Token do seu Bot do Telegram (do BotFather)
-TELEGRAM_BOT_TOKEN = "7909529855:AAFtP1Q-5WxakoRGd7wHCOiDvIjKhfTx1Rs"
+# config.py
+import os
+from dotenv import load_dotenv
 
-# ID do Chat do Telegram para onde a mensagem será enviada
-TELEGRAM_CHAT_ID = "1385949620"
+# Carrega as variáveis do arquivo .env para o ambiente
+load_dotenv()
 
-# Nome exato da sua Planilha no Google Sheets
-GOOGLE_SHEET_NAME = "Reservas"
+# --- Chaves de API ---
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-# ID do calendário PÚBLICO de feriados nacionais do Brasil
-PUBLIC_HOLIDAY_CALENDAR_ID = "pt-br.brazilian#holiday@group.v.calendar.google.com"
+# --- Configurações do Telegram ---
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+
+# --- Configurações do Google Workspace ---
+GOOGLE_SHEET_NAME = os.getenv("GOOGLE_SHEET_NAME")
+PUBLIC_HOLIDAY_CALENDAR_ID = os.getenv("PUBLIC_HOLIDAY_CALENDAR_ID")

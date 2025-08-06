@@ -1,0 +1,9 @@
+# Arquivo de variáveis de ambiente (segredos)
+.env
+
+# Credenciais do Google
+credentials.json
+
+# Pasta do ambiente virtual
+venv/
+__pycache__/
