@@ -120,7 +120,7 @@ O bot começará a verificar a planilha a cada 60 segundos. Para parar, pression
 
 Este protótipo da Fase 1 estabelece uma base sólida e escalável. A evolução natural do projeto inclui:
 
-  - **Fase 2 (Concierge Interativo):** Implementar um chatbot via **WhatsApp Business API** para responder a dúvidas e agendar serviços durante a estadia do hóspede.
+  - **Fase 2 (Concierge Interativo):** Implementar um chatbot via **WhatsApp Business API** ou **Telegram** para responder a dúvidas e agendar serviços durante a estadia do hóspede.
   - **Fase 3 (Elo de Fidelidade):** Desenvolver um sistema de análise de dados pós-estadia para enviar ofertas personalizadas e incentivar a fidelização.
   - **Integração com PMS:** Conectar o sistema diretamente com a API de um sistema de gerenciamento hoteleiro para automação completa.
 
