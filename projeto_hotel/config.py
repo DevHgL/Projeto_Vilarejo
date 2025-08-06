@@ -1,7 +1,6 @@
 
-# Chave da API da Google
-GOOGLE_API_KEY = "AIzaSyAAhBAsHt9DBdrKrDyNW3vYVMrXQ0T7zP8"
-
+# Chave da API da OpenRouter
+OPENROUTER_API_KEY = "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"
 # Token do seu Bot do Telegram (do BotFather)
 TELEGRAM_BOT_TOKEN = "7909529855:AAFtP1Q-5WxakoRGd7wHCOiDvIjKhfTx1Rs"
 
