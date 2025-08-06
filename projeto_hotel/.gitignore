@@ -7,3 +7,5 @@ credentials.json
 # Pasta do ambiente virtual
 venv/
 __pycache__/
+
+# 
