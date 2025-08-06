@@ -4,7 +4,7 @@ Este projeto ataca diretamente os problemas de Personalização, NPS e RevPAR, e
 A Solução em Detalhes (dividida nas suas 3 fases):
 
 Fase 1: Pré-Hospedagem (O Planejador Antecipado)
-Como Funciona: Dias após a confirmação da reserva, o assistente virtual entra em contato via WhatsApp ou e-mail. Usando IA Generativa, ele cria uma mensagem única para aquele hóspede.
+Como Funciona: Dias após a confirmação da reserva, o assistente virtual entra em contato via Telegram. Usando IA Generativa, ele cria uma mensagem única para aquele hóspede.
 
 Programação: "Olá, [Nome do Hóspede]! Vimos que você ficará conosco de [data] a [data]. Preparamos um resumo da nossa programação para esses dias para você já entrar no clima..."
 

@@ -29,7 +29,7 @@ def create_fake_reservations(num_reservations):
         return
 
     # --- Listas de opções para gerar dados mais realistas ---
-    motivos_viagem = ["Férias em Família", "Aniversário de Casamento", "Negócios", "Lua de Mel", "Fim de Semana"]
+    motivos_viagem = ["Férias em Família", "Aniversário de Casamento", "Relaxar", "Lua de Mel", "Fim de Semana"]
     tipos_quarto = ["Suíte Master com Varanda", "Chalé na Montanha", "Quarto Duplo Luxo", "Bangalô Standard"]
     
     new_rows = []
@@ -59,11 +59,12 @@ def create_fake_reservations(num_reservations):
         criancas = 0 # Por padrão, zero crianças
         
         if "Família" in motivo_viagem:
-            criancas = random.randint(2, 4)
+            adultos = random.randint(2, 4)
+            criancas = random.randint(1, 6)
         elif "Lua de Mel" in motivo_viagem or "Aniversário" in motivo_viagem:
             adultos = 2 # Garante 2 adultos para casais
-        elif "Negócios" in motivo_viagem:
-            adultos = 1 # Garante 1 adulto para negócios
+        elif "Relaxar" in motivo_viagem:
+            adultos = 2 # Garante 2 adultos para relaxar
 
         # --- Montagem da Linha ---
         # A ORDEM AQUI DEVE SER EXATAMENTE A MESMA DAS COLUNAS NA SUA PLANILHA
@@ -88,5 +89,5 @@ def create_fake_reservations(num_reservations):
 
 # --- BLOCO PRINCIPAL PARA EXECUTAR O SCRIPT ---
 if __name__ == "__main__":
-    NUMERO_DE_RESERVAS_PARA_CRIAR = 3  # Ajuste este número conforme necessário'    
+    NUMERO_DE_RESERVAS_PARA_CRIAR = 20  # Ajuste este número conforme necessário'    
     create_fake_reservations(NUMERO_DE_RESERVAS_PARA_CRIAR)

@@ -116,7 +116,8 @@ O bot começará a verificar a planilha a cada 60 segundos por novas reservas e 
 
 Este protótipo representa a **Fase 1** de um projeto maior. Os próximos passos incluem:
 
-  - **Fase 2 (Concierge Durante a Hospedagem):** Implementar um chatbot interativo via **WhatsApp Business API** para responder a perguntas e fazer sugestões proativas (reservas de spa, jantar), aumentando o RevPAR.
+
+  - **Fase 2 (Concierge Durante a Hospedagem):** Implementar um chatbot interativo via **Telegram** para responder a perguntas e fazer sugestões proativas (reservas de spa, jantar), aumentando o RevPAR.
   - **Fase 3 (Elo de Fidelidade):** Desenvolver um módulo de análise de dados pós-hospedagem para enviar ofertas personalizadas e incentivar reservas diretas.
   - **Melhorias de Arquitetura:**
       - Migrar de Google Sheets para um banco de dados relacional (ex: PostgreSQL).
