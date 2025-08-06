@@ -52,4 +52,4 @@ Como essa ideia é fácil de implementar (MVP):
 
 Você pode propor começar apenas com a Fase 1 (Pré-Hospedagem). Ela pode ser feita com uma automação simples (Make/Zapier) que é ativada por uma nova reserva, envia os dados para a IA criar o texto e dispara a mensagem. Isso já entrega um valor enorme e prova o conceito do projeto sem a necessidade de integrações complexas com os sistemas do hotel. As fases 2 e 3 seriam a evolução natural após o sucesso do MVP.
 
-Esta é uma ideia fantástica porque é uma história completa com começo, meio e fim. Ela é criativa, altamente tangível e tem um roteiro claro de evolução. É uma proposta vencedora para o seu case.
+Esta é uma ideia fantástica porque é uma história completa com começo, meio e fim. Ela é criativa, altamente tangível e tem um roteiro claro de evolução. É uma proposta vencedora para o seu case.f

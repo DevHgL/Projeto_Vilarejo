@@ -9,3 +9,6 @@ TELEGRAM_CHAT_ID = "1385949620"
 
 # Nome exato da sua Planilha no Google Sheets
 GOOGLE_SHEET_NAME = "Reservas"
+
+# ID do calendário PÚBLICO de feriados nacionais do Brasil
+PUBLIC_HOLIDAY_CALENDAR_ID = "pt-br.brazilian#holiday@group.v.calendar.google.com"
