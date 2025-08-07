@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="2"> 
+    <title>Dashboard - Concierge Alfred</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 20px; }
+        .container { max-width: 1200px; margin: auto; }
+        h1 { color: #2c3e50; }
+        .kpi-container { display: flex; gap: 20px; margin-bottom: 30px; }
+        .kpi-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); flex-grow: 1; text-align: center; }
+        .kpi-card h2 { margin: 0; color: #34495e; font-size: 18px; }
+        .kpi-card p { font-size: 48px; font-weight: bold; margin: 10px 0 0 0; color: #2980b9; }
+        .table-container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }
+        th { background-color: #ecf0f1; }
+        footer { text-align: center; margin-top: 30px; color: #7f8c8d; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Dashboard Admin - Concierge Virtual Alfred</h1>
+        
+        <div class="kpi-container">
+            <div class="kpi-card">
+                <h2>Total de Reservas</h2>
+                <p>{{ kpis.total }}</p>
+            </div>
+            <div class="kpi-card">
+                <h2>Hóspedes Contatados</h2>
+                <p>{{ kpis.processadas }}</p>
+            </div>
+            <div class="kpi-card">
+                <h2>Na Fila para Contato</h2>
+                <p>{{ kpis.fila }}</p>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <h2>Próximos Hóspedes a Contatar (Amostra)</h2>
+            <table>
+                <tr>
+                    <th>Nome do Hóspede</th>
+                    <th>Check-in</th>
+                    <th>Motivo da Viagem</th>
+                </tr>
+                {% for reserva in fila %}
+                <tr>
+                    <td>{{ reserva['Nome do Hóspede'] }}</td>
+                    <td>{{ reserva['Data de Check-in'] }}</td>
+                    <td>{{ reserva['Motivo da Viagem'] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <footer>
+            Dados atualizados em: {{ timestamp }}
+        </footer>
+    </div>
+</body>
+</html>

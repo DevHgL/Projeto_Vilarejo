@@ -4,3 +4,4 @@ openai
 requests
 Faker
 python-dotenv
+Flask
