@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação: Jornada do Hóspede 360°</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        :root {
+            --dark-blue: #003366;
+            --medium-blue: #005a9e;
+            --light-blue: #eef5fa;
+            --solar-yellow: #FDB813;
+            --text-dark: #2c3e50;
+            --text-light: #ffffff;
+            --text-grey: #5a6a7a;
+            --success-green: #27ae60;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light-blue);
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+        }
+
+        .slide {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 4rem 2rem;
+            box-sizing: border-box;
+            border-bottom: 1px solid #dce5ec;
+            text-align: center;
+        }
+
+        .slide-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--dark-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .slide-subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: var(--medium-blue);
+            margin-bottom: 2rem;
+            max-width: 900px;
+        }
+
+        .slide-content {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            gap: 2rem;
+            width: 100%;
+            max-width: 1200px;
+        }
+        
+        .card {
+            background-color: var(--text-light);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 51, 102, 0.1);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            color: var(--dark-blue);
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .card p, .card li {
+            color: var(--text-grey);
+            line-height: 1.6;
+        }
+        
+        .card ul {
+            padding-left: 20px;
+        }
+
+        .icon {
+            font-size: 3rem;
+            color: var(--solar-yellow);
+            margin-bottom: 1rem;
+        }
+        
+        .logo-alfred {
+            width: 120px;
+            margin-bottom: 1rem;
+        }
+        
+        .slide-intro, .slide-final {
+            background: linear-gradient(135deg, var(--dark-blue) 0%, var(--medium-blue) 100%);
+            color: var(--text-light);
+        }
+        .slide-intro .slide-title, .slide-intro .slide-subtitle, .slide-intro p,
+        .slide-final .slide-title, .slide-final .slide-subtitle, .slide-final p {
+            color: var(--text-light);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        th, td {
+            padding: 0.8rem 1rem;
+            border: 1px solid #dce5ec;
+            text-align: left;
+        }
+        th {
+            background-color: var(--light-blue);
+            font-weight: 600;
+        }
+        td.center {
+            text-align: center;
+        }
+        td strong {
+            color: var(--dark-blue);
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- SLIDE 1: TÍTULO -->
+    <section class="slide slide-intro">
+        <h1 class="slide-title">Jornada do Hóspede 360° com IA</h1>
+        <p class="slide-subtitle">Uma Análise Estratégica para Revolucionar a Experiência Hoteleira</p>
+        <p style="margin-top: 2rem;">Apresentado por: <strong>Hugo Leonardo Melo</strong></p>
+    </section>
+
+    <!-- SLIDE 2: O QUÊ? (WHAT?) -->
+    <section class="slide">
+        <h2 class="slide-title">O Quê? (What?)</h2>
+        <p class="slide-subtitle">Um assistente de IA proativo que personaliza toda a jornada do hóspede, dividido em três fases evolutivas.</p>
+        <div class="slide-content">
+            <div class="card">
+                <div class="icon">🚀</div>
+                <h3>Fase 1 (MVP): O Planejador Antecipado</h3>
+                <p>Contato proativo via WhatsApp pós-reserva com mensagens personalizadas pela IA, incluindo dicas, programação e logística de chegada.</p>
+            </div>
+            <div class="card">
+                <div class="icon">💬</div>
+                <h3>Fase 2: O Concierge Pessoal</h3>
+                <p>Durante a estadia, o bot evolui para um concierge 24/7, agendando serviços (spa, eventos) e respondendo a dúvidas instantaneamente.</p>
+            </div>
+            <div class="card">
+                <div class="icon">💖</div>
+                <h3>Fase 3: O Elo de Fidelidade</h3>
+                <p>Após o check-out, a IA analisa o comportamento do hóspede para enviar ofertas de retorno hiper-personalizadas, incentivando a reserva direta.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SLIDE 3: POR QUÊ? (WHY?) -->
+    <section class="slide" style="background-color: #fff;">
+        <h2 class="slide-title">Por Quê? (Why?)</h2>
+        <p class="slide-subtitle">Para transformar o modelo de negócio, atacando diretamente os KPIs mais críticos da hotelaria.</p>
+        <div class="slide-content">
+            <div class="card">
+                <h3>Aumentar o NPS</h3>
+                <p>Ao mitigar a ansiedade pré-viagem e oferecer conveniência máxima, elevamos a satisfação e criamos uma experiência memorável que gera promotores da marca.</p>
+            </div>
+            <div class="card">
+                <h3>Aumentar o RevPAR</h3>
+                <p>As sugestões proativas e o agendamento fácil de serviços na Fase 2 transformam o assistente num motor de vendas, aumentando a receita de serviços extras.</p>
+            </div>
+            <div class="card">
+                <h3>Aumentar a Fidelização</h3>
+                <p>A personalização na Fase 3 aumenta o Customer Lifetime Value (CLV) e a taxa de reserva direta, reduzindo o Custo de Aquisição de Clientes (CAC).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE 4: QUEM? E ONDE? (WHO? & WHERE?) -->
+    <section class="slide">
+        <h2 class="slide-title">Quem e Onde? (Who? & Where?)</h2>
+        <p class="slide-subtitle">Envolvendo equipas ágeis e integrando-se ao ecossistema digital e físico do hotel.</p>
+        <div class="slide-content">
+            <div class="card">
+                <h3>Quem? (Stakeholders)</h3>
+                <ul>
+                    <li><strong>Fase 1 (MVP):</strong> Equipa de Inovação e Marketing.</li>
+                    <li><strong>Fase 2:</strong> Equipa de Operações e TI para integrações.</li>
+                    <li><strong>Fase 3:</strong> Direção de Marketing e Análise de Dados.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Onde? (Ecossistema)</h3>
+                <ul>
+                    <li><strong>Canais:</strong> A interação acontece no **WhatsApp**, um canal que o hóspede já usa e confia.</li>
+                    <li><strong>Integrações:</strong> O sistema se conecta com o PMS, POS e sistemas de agendamento do hotel.</li>
+                    <li><strong>Tecnologia:</strong> Orquestrado na nuvem com plataformas low-code (Make/Zapier) e APIs.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDE 5: QUANDO? (WHEN?) -->
+    <section class="slide" style="background-color: #fff;">
+        <h2 class="slide-title">Quando? (When?)</h2>
+        <p class="slide-subtitle">Um cronograma ágil para a Fase 1, entregando valor em apenas 8 semanas.</p>
+        <div class="card" style="max-width: 1000px;">
+            <h3>Cronograma do MVP (Fase 1)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sprint (2 Semanas)</th>
+                        <th>Foco Principal</th>
+                        <th>Entregável Chave</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Semanas 1-2</strong></td>
+                        <td>Planeamento e Setup</td>
+                        <td>Escopo e orçamento aprovados.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Semanas 3-4</strong></td>
+                        <td>Desenvolvimento e Integração</td>
+                        <td>Fluxo de automação funcional.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Semanas 5-6</strong></td>
+                        <td>Teste e Refinamento</td>
+                        <td>Piloto "beta fechado" concluído.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Semanas 7-8</strong></td>
+                        <td>Lançamento e Monitorização</td>
+                        <td>Lançamento gradual para 20% das reservas.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- SLIDE 6: QUANTO CUSTA? (HOW MUCH?) -->
+    <section class="slide">
+        <h2 class="slide-title">Quanto Custa? (How Much?)</h2>
+        <p class="slide-subtitle">Uma abordagem de investimento faseada e baseada em custo operacional (OPEX), com ROI claro em cada etapa.</p>
+        <div class="card" style="max-width: 1000px;">
+            <h3>Análise de Custo x Benefício (Estimativas Mensais)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fase</th>
+                        <th>Custo Mensal (OPEX)</th>
+                        <th>Retorno Sobre o Investimento (ROI)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Fase 1 (MVP)</strong></td>
+                        <td class="center"><strong>~ R$ 215</strong></td>
+                        <td><strong>Operacional:</strong> Redução de custos e aumento de NPS. O sistema se paga com 2 horas de trabalho da receção economizadas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fase 2 (Concierge)</strong></td>
+                        <td class="center"><strong>~ R$ 2.000</strong></td>
+                        <td><strong>Receita Direta:</strong> A venda de 1 serviço extra para 5% dos hóspedes pode gerar +R$ 4.500/mês, financiando o desenvolvimento.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fase 3 (Fidelidade)</strong></td>
+                        <td class="center"><i>Variável</i></td>
+                        <td><strong>Estratégico:</strong> Aumento do CLV e redução de comissões de OTAs, com potencial de dezenas de milhares de reais em economia anual.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- SLIDE 7: COMO? (HOW?) -->
+    <section class="slide" style="background-color: #fff;">
+        <h2 class="slide-title">Como? (How?)</h2>
+        <p class="slide-subtitle">Através de uma arquitetura técnica ágil para o MVP e um plano de execução claro.</p>
+        <div class="slide-content">
+            <div class="card">
+                <h3>Arquitetura do MVP</h3>
+                <ul>
+                    <li><strong>Orquestrador:</strong> Make.com / Zapier.</li>
+                    <li><strong>Gatilho:</strong> Nova linha no Google Sheets.</li>
+                    <li><strong>Inteligência:</strong> API de IA Generativa (ex: Google Gemini).</li>
+                    <li><strong>Comunicação:</strong> API do WhatsApp Business.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Plano de Execução</h3>
+                <p>O projeto começa com o protótipo funcional que já foi desenvolvido, servindo como prova de conceito para validar a Fase 1. A demonstração ao vivo validará a tangibilidade e a viabilidade técnica, abrindo caminho para o cronograma de 8 semanas proposto.</p>
+            </div>
+        </div>
+    </section>W
+    
+    <!-- SLIDE 8: CONCLUSÃO -->
+    <section class="slide">
+        <h2 class="slide-title">Uma Proposta de Valor Clara</h2>
+        <p class="slide-subtitle">Este projeto atende com excelência aos critérios de criatividade, evolução e tangibilidade.</p>
+        <div class="slide-content">
+            <div class="card">
+                <h3>Tangibilidade</h3>
+                <p>Comprovada por um protótipo funcional e um plano de implementação detalhado e de baixo risco para a Fase 1.</p>
+            </div>
+            <div class="card">
+                <h3>Criatividade</h3>
+                <p>Aplicada no uso da IA para gerar empatia e personalização, transformando a comunicação com o hóspede.</p>
+            </div>
+            <div class="card">
+                <h3>Evolução</h3>
+                <p>Demonstrada pelo roteiro de 3 fases, que transforma um MVP num ativo estratégico para o negócio.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SLIDE 9: AGRADECIMENTO -->
+    <section class="slide slide-final">
+        <h2 class="slide-title" style="font-size: 4rem;">Obrigado.</h2>
+        <p class="slide-subtitle" style="font-size: 2rem;">Perguntas?</p>
+        <p style="margin-top: 3rem; font-size: 1.2rem;"><strong>Hugo Leonardo Melo</strong></p>
+        <p>https://www.linkedin.com/in/hugolmelo/</p>
+    </section>
+
+</body>
+</html>
