@@ -1,7 +1,36 @@
-gspread
-oauth2client
-openai
-requests
-Faker
+# Arquivo de dependências do Python para o Projeto Alfred
+# Para instalar tudo, use o comando: pip install -r requirements.txt
+
+# --- Core do Projeto ---
+# Para gerenciar segredos e variáveis de ambiente a partir do arquivo .env
 python-dotenv
+
+# Para fazer requisições HTTP (usado para a API do Telegram)
+requests
+
+# --- Integração com Google Workspace ---
+# Biblioteca principal para interagir com Google Sheets
+gspread
+
+# Dependência de autenticação para o gspread (pode ser substituída pela google-auth, mas é bom ter para compatibilidade)
+oauth2client
+
+# Bibliotecas para a API do Google Calendar (e outras APIs do Google)
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# --- Geração de Dados de Teste ---
+# Para criar dados fictícios (nomes, cidades, etc.) no script populate_sheet.py
+Faker
+
+# --- Dashboard Web ---
+# Microframework para criar o site do dashboard
 Flask
+
+# --- APIs de IA (para versões não-simuladas) ---
+# Biblioteca da OpenAI (compatível com DeepSeek e OpenRouter)
+openai
+
+# Biblioteca do Google para a API Gemini
+google-generativeai

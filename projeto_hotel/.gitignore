@@ -1,11 +1,18 @@
-# Arquivo de variáveis de ambiente (segredos)
-.env
+# Arquivo para ignorar ficheiros no Git
 
-# Credenciais do Google
+# 1. SEGURANÇA: Ficheiros de segredos e credenciais
+# Nunca envie chaves de API ou ficheiros de credenciais para um repositório público.
+.env
 credentials.json
 
-# Pasta do ambiente virtual
+# 2. AMBIENTE VIRTUAL: Pasta do ambiente Python
+# Esta pasta contém as bibliotecas instaladas e pode ser muito grande.
+# Outra pessoa pode recriá-la usando o ficheiro requirements.txt.
 venv/
-__pycache__/
+/venv/
 
-# 
+# 3. FICHEIROS DE CACHE E DE SISTEMA: Lixo gerado pelo Python e pelo S.O.
+# Mantém o repositório limpo.
+__pycache__/
+*.pyc
+.DS_Store
